@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: #fff;
+}
+
+header>nav>ul{
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between;
+}
+
+header>nav>ul>li{
+    display: inline-block;
+    padding: 10px;
+}
+
+header>nav>ul>li>img{
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+header>nav>ul>li>a{
+    color:black;
+    text-decoration: none;
+    font-family: serif;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    background: linear-gradient(90deg, rgb(255,105,180),rgb(234,234,137));
+    margin: 20px;
+    padding-bottom: 75px;
+}
+
+.container1{
+    background: linear-gradient(90deg, rgb(255,105,180),rgb(234, 234, 137));
+    margin: 20px;
+}
+
+center>h1{
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+.banner1{
+    overflow: hidden;
+    position: relative;
+}
+
+.banner1>img{
+    width: 100%;
+}
+
+.banner1> div {
+    position: absolute;
+    background-color: rgb(198, 0, 0, 0.3);
+    width: 45%;
+    padding: 25px 50px 75px;
+    text-wrap: wrap;
+    top: 30%;
+    left: 4%;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.banner>div>h1, .banner>div>p{
+    font-size: 3vmin;
+}
+
+.food-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+    background: #fff;
+    border-radius: 0 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    position: relative;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.descript{
+    position: absolute;
+    width: 100%;
+    padding-top: 230px;
+    text-align: center;
+}
+
+.descript>h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.descript>p{
+    padding: 20px;
+}
+
+.btn-order{
+    background-color: rgb(255, 255, 255, 0.25);
+    padding: 20px 50px;
+    border: 0px;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+
+@media only screen and (max-width:850px) {
+    .navbar{
+        padding: 0;
+    }
+    .navbar>ul {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+    .navbar>ul>li{
+        margin: 30px auto;
+    }
+}
